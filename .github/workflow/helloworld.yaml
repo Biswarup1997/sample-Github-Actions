@@ -4,11 +4,9 @@ on:
     branches:
       - master
       - production
-
 jobs:
   helloworld:
-  runs-on: ubuntu-latest
-
-  steps:
-    - name:"print hello world"
-       run: echo "Hello world"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Hello world step"
+        run: echo "Hello world"
